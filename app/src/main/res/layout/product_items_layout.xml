@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:background="#D7F7DAED"
+    android:layout_marginEnd="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    app:cardElevation="15dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/featu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="6dp"
+            android:text="FEATURED"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#020202"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/pdt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/featu"
+            android:text="Product Name"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textColor="#020202"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/pdt_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/pdt_name"
+            android:layout_marginTop="-2dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/pdt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pdt_image"
+            android:text="Product Desription"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textColor="#020202"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/pdt_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pdt_description"
+            android:text="Product Contact"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textColor="#020202"
+            android:textSize="10dp"
+            />
+
+</RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
